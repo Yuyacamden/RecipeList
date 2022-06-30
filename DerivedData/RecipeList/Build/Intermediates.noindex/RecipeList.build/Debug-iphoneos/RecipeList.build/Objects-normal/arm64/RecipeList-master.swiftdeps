@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "2c895cf7258331bd78fcb26112e3e3b47c59692778e8fa36b0244e3429dcf56d"
+build_start_time: [1656570707, 611247062]
+build_end_time: [1656570708, 44981002]
+inputs:
+  "/Users/yuya/Documents/Swift\u3082\u306E\u304A\u304D/swiftApp/RecipeList/RecipeList/ContentView.swift": [1656570523, 307234764]
+  "/Users/yuya/Documents/Swift\u3082\u306E\u304A\u304D/swiftApp/RecipeList/RecipeList/PhotoData.swift": [1656510323, 877120494]
+  "/Users/yuya/Documents/Swift\u3082\u306E\u304A\u304D/swiftApp/RecipeList/RecipeList/PhotoDetailView.swift": [1656510963, 718917846]
+  "/Users/yuya/Documents/Swift\u3082\u306E\u304A\u304D/swiftApp/RecipeList/RecipeList/RecipeListApp.swift": [1656570703, 500185966]
+  "/Users/yuya/Documents/Swift\u3082\u306E\u304A\u304D/swiftApp/RecipeList/RecipeList/RowView.swift": [1656490828, 87837219]

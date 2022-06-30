@@ -1,0 +1,76 @@
+
+Showing All Messages
+MkDir /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos/RecipeList.app (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    /bin/mkdir -p /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos/RecipeList.app
+
+ProcessProductPackaging /Users/yuya/Library/MobileDevice/Provisioning\ Profiles/a0d33102-d727-44fb-b7c7-0d6af0490c8c.mobileprovision /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos/RecipeList.app/embedded.mobileprovision (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    builtin-productPackagingUtility /Users/yuya/Library/MobileDevice/Provisioning\ Profiles/a0d33102-d727-44fb-b7c7-0d6af0490c8c.mobileprovision -o /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos/RecipeList.app/embedded.mobileprovision
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/DerivedSources/Entitlements.plist (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/DerivedSources/Entitlements.plist
+
+ProcessProductPackaging "" /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList.app.xcent (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "DCNLX2SM93.com.yuya.RecipeList";
+    "com.apple.developer.team-identifier" = DCNLX2SM93;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "DCNLX2SM93.com.yuya.RecipeList"
+    );
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList.app.xcent
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-all-non-framework-target-headers.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/all-product-headers.yaml (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-generated-files.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-generated-files.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-own-target-headers.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-all-target-headers.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-project-headers.hmap (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-project-headers.hmap
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.LinkFileList (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.LinkFileList
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.SwiftFileList (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.SwiftFileList
+
+WriteAuxiliaryFile /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList-OutputFileMap.json (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    write-file /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList-OutputFileMap.json
+
+CompileSwiftSources normal arm64 com.apple.xcode.tools.swift.compiler (in target 'RecipeList' from project 'RecipeList')
+    cd /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+    export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name RecipeList -Onone -enable-batch-mode -enforce-exclusivity\=checked @/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.SwiftFileList -DDEBUG -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk -target arm64-apple-ios15.0 -g -module-cache-path /Users/yuya/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -embed-bitcode-marker -enable-testing -index-store-path /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Index/DataStore -swift-version 5 -I /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos -F /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64 -c -j8 -output-file-map /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList.swiftmodule -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-generated-files.hmap -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-own-target-headers.hmap -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-all-target-headers.hmap -Xcc -iquote -Xcc /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/RecipeList-project-headers.hmap -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Products/Debug-iphoneos/include -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/DerivedSources-normal/arm64 -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/DerivedSources/arm64 -Xcc -I/Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/yuya/Library/Developer/Xcode/DerivedData/RecipeList-davqxygqbbvxvaagwbaocegjwaxy/Build/Intermediates.noindex/RecipeList.build/Debug-iphoneos/RecipeList.build/Objects-normal/arm64/RecipeList-Swift.h -working-directory /Users/yuya/Documents/Swiftものおき/swiftApp/RecipeList
+

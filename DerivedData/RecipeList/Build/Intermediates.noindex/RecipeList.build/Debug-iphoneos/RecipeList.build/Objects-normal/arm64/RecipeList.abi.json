@@ -1,0 +1,1970 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList11ContentViewV4bodyQrvp",
+          "mangledName": "$s10RecipeList11ContentViewV4bodyQrvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList11ContentViewV4bodyQrvg",
+              "mangledName": "$s10RecipeList11ContentViewV4bodyQrvg",
+              "moduleName": "RecipeList",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "RecipeList.ContentView",
+              "usr": "s:10RecipeList11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList11ContentViewVACycfc",
+          "mangledName": "$s10RecipeList11ContentViewVACycfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList11ContentViewV",
+      "mangledName": "$s10RecipeList11ContentViewV",
+      "moduleName": "RecipeList",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s10RecipeList20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "RecipeList",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s10RecipeList20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "RecipeList",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "RecipeList.ContentView_Previews",
+              "usr": "s:10RecipeList20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList20ContentView_PreviewsVACycfc",
+          "mangledName": "$s10RecipeList20ContentView_PreviewsVACycfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList20ContentView_PreviewsV",
+      "mangledName": "$s10RecipeList20ContentView_PreviewsV",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RecipeListApp",
+      "printedName": "RecipeListApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "appDelegate",
+          "printedName": "appDelegate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "RecipeList.AppDelegate",
+              "usr": "c:@M@RecipeList@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList0aB3AppV11appDelegateAA0cE0Cvp",
+          "mangledName": "$s10RecipeList0aB3AppV11appDelegateAA0cE0Cvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "Custom",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppDelegate",
+                  "printedName": "RecipeList.AppDelegate",
+                  "usr": "c:@M@RecipeList@objc(cs)AppDelegate"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList0aB3AppV11appDelegateAA0cE0Cvg",
+              "mangledName": "$s10RecipeList0aB3AppV11appDelegateAA0cE0Cvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_appDelegate",
+          "printedName": "_appDelegate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplicationDelegateAdaptor",
+              "printedName": "SwiftUI.UIApplicationDelegateAdaptor<RecipeList.AppDelegate>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppDelegate",
+                  "printedName": "RecipeList.AppDelegate",
+                  "usr": "c:@M@RecipeList@objc(cs)AppDelegate"
+                }
+              ],
+              "usr": "s:7SwiftUI28UIApplicationDelegateAdaptorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList0aB3AppV12_appDelegate33_21A0E73EB7DFCD1E67E24C998CC29A79LL7SwiftUI013UIApplicationE7AdaptorVyAA0cE0CGvp",
+          "mangledName": "$s10RecipeList0aB3AppV12_appDelegate33_21A0E73EB7DFCD1E67E24C998CC29A79LL7SwiftUI013UIApplicationE7AdaptorVyAA0cE0CGvp",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList0aB3AppV4bodyQrvp",
+          "mangledName": "$s10RecipeList0aB3AppV4bodyQrvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList0aB3AppV4bodyQrvg",
+              "mangledName": "$s10RecipeList0aB3AppV4bodyQrvg",
+              "moduleName": "RecipeList",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(appDelegate:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RecipeListApp",
+              "printedName": "RecipeList.RecipeListApp",
+              "usr": "s:10RecipeList0aB3AppV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplicationDelegateAdaptor",
+              "printedName": "SwiftUI.UIApplicationDelegateAdaptor<RecipeList.AppDelegate>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppDelegate",
+                  "printedName": "RecipeList.AppDelegate",
+                  "usr": "c:@M@RecipeList@objc(cs)AppDelegate"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:7SwiftUI28UIApplicationDelegateAdaptorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList0aB3AppV11appDelegateAC7SwiftUI013UIApplicationE7AdaptorVyAA0cE0CG_tcfc",
+          "mangledName": "$s10RecipeList0aB3AppV11appDelegateAC7SwiftUI013UIApplicationE7AdaptorVyAA0cE0CG_tcfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RecipeListApp",
+              "printedName": "RecipeList.RecipeListApp",
+              "usr": "s:10RecipeList0aB3AppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList0aB3AppVACycfc",
+          "mangledName": "$s10RecipeList0aB3AppVACycfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RecipeList0aB3AppV5$mainyyFZ",
+          "mangledName": "$s10RecipeList0aB3AppV5$mainyyFZ",
+          "moduleName": "RecipeList",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList0aB3AppV",
+      "mangledName": "$s10RecipeList0aB3AppV",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "Custom",
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RecipeList@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s10RecipeList11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtF",
+          "moduleName": "RecipeList",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "RecipeList.AppDelegate",
+              "usr": "c:@M@RecipeList@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RecipeList@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s10RecipeList11AppDelegateCACycfc",
+          "moduleName": "RecipeList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RecipeList@objc(cs)AppDelegate",
+      "mangledName": "$s10RecipeList11AppDelegateC",
+      "moduleName": "RecipeList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Var",
+      "name": "photoArray",
+      "printedName": "photoArray",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[RecipeList.PhotoData]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:10RecipeList10photoArraySayAA9PhotoDataVGvp",
+      "mangledName": "$s10RecipeList10photoArraySayAA9PhotoDataVGvp",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PhotoData",
+      "printedName": "PhotoData",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList9PhotoDataV2idSivp",
+          "mangledName": "$s10RecipeList9PhotoDataV2idSivp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV2idSivg",
+              "mangledName": "$s10RecipeList9PhotoDataV2idSivg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV2idSivs",
+              "mangledName": "$s10RecipeList9PhotoDataV2idSivs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV2idSivM",
+              "mangledName": "$s10RecipeList9PhotoDataV2idSivM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "imageName",
+          "printedName": "imageName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList9PhotoDataV9imageNameSSvp",
+          "mangledName": "$s10RecipeList9PhotoDataV9imageNameSSvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV9imageNameSSvg",
+              "mangledName": "$s10RecipeList9PhotoDataV9imageNameSSvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV9imageNameSSvs",
+              "mangledName": "$s10RecipeList9PhotoDataV9imageNameSSvs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV9imageNameSSvM",
+              "mangledName": "$s10RecipeList9PhotoDataV9imageNameSSvM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList9PhotoDataV5titleSSvp",
+          "mangledName": "$s10RecipeList9PhotoDataV5titleSSvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV5titleSSvg",
+              "mangledName": "$s10RecipeList9PhotoDataV5titleSSvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV5titleSSvs",
+              "mangledName": "$s10RecipeList9PhotoDataV5titleSSvs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV5titleSSvM",
+              "mangledName": "$s10RecipeList9PhotoDataV5titleSSvM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "desc",
+          "printedName": "desc",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList9PhotoDataV4descSSvp",
+          "mangledName": "$s10RecipeList9PhotoDataV4descSSvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV4descSSvg",
+              "mangledName": "$s10RecipeList9PhotoDataV4descSSvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV4descSSvs",
+              "mangledName": "$s10RecipeList9PhotoDataV4descSSvs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList9PhotoDataV4descSSvM",
+              "mangledName": "$s10RecipeList9PhotoDataV4descSSvM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(id:imageName:title:desc:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList9PhotoDataV2id9imageName5title4descACSi_S3Stcfc",
+          "mangledName": "$s10RecipeList9PhotoDataV2id9imageName5title4descACSi_S3Stcfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList9PhotoDataV",
+      "mangledName": "$s10RecipeList9PhotoDataV",
+      "moduleName": "RecipeList",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "makeData",
+      "printedName": "makeData()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[RecipeList.PhotoData]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:10RecipeList8makeDataSayAA05PhotoD0VGyF",
+      "mangledName": "$s10RecipeList8makeDataSayAA05PhotoD0VGyF",
+      "moduleName": "RecipeList",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PhotoDetailView",
+      "printedName": "PhotoDetailView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "photo",
+          "printedName": "photo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList15PhotoDetailViewV5photoAA0C4DataVvp",
+          "mangledName": "$s10RecipeList15PhotoDetailViewV5photoAA0C4DataVvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PhotoData",
+                  "printedName": "RecipeList.PhotoData",
+                  "usr": "s:10RecipeList9PhotoDataV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList15PhotoDetailViewV5photoAA0C4DataVvg",
+              "mangledName": "$s10RecipeList15PhotoDetailViewV5photoAA0C4DataVvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "PhotoData",
+                  "printedName": "RecipeList.PhotoData",
+                  "usr": "s:10RecipeList9PhotoDataV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList15PhotoDetailViewV5photoAA0C4DataVvs",
+              "mangledName": "$s10RecipeList15PhotoDetailViewV5photoAA0C4DataVvs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList15PhotoDetailViewV5photoAA0C4DataVvM",
+              "mangledName": "$s10RecipeList15PhotoDetailViewV5photoAA0C4DataVvM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList15PhotoDetailViewV4bodyQrvp",
+          "mangledName": "$s10RecipeList15PhotoDetailViewV4bodyQrvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList15PhotoDetailViewV4bodyQrvg",
+              "mangledName": "$s10RecipeList15PhotoDetailViewV4bodyQrvg",
+              "moduleName": "RecipeList",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(photo:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoDetailView",
+              "printedName": "RecipeList.PhotoDetailView",
+              "usr": "s:10RecipeList15PhotoDetailViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList15PhotoDetailViewV5photoAcA0C4DataV_tcfc",
+          "mangledName": "$s10RecipeList15PhotoDetailViewV5photoAcA0C4DataV_tcfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList15PhotoDetailViewV",
+      "mangledName": "$s10RecipeList15PhotoDetailViewV",
+      "moduleName": "RecipeList",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PhotoDetailView_Previews",
+      "printedName": "PhotoDetailView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList24PhotoDetailView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s10RecipeList24PhotoDetailView_PreviewsV8previewsQrvpZ",
+          "moduleName": "RecipeList",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList24PhotoDetailView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s10RecipeList24PhotoDetailView_PreviewsV8previewsQrvgZ",
+              "moduleName": "RecipeList",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoDetailView_Previews",
+              "printedName": "RecipeList.PhotoDetailView_Previews",
+              "usr": "s:10RecipeList24PhotoDetailView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList24PhotoDetailView_PreviewsVACycfc",
+          "mangledName": "$s10RecipeList24PhotoDetailView_PreviewsVACycfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList24PhotoDetailView_PreviewsV",
+      "mangledName": "$s10RecipeList24PhotoDetailView_PreviewsV",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RowView",
+      "printedName": "RowView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "photo",
+          "printedName": "photo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList7RowViewV5photoAA9PhotoDataVvp",
+          "mangledName": "$s10RecipeList7RowViewV5photoAA9PhotoDataVvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PhotoData",
+                  "printedName": "RecipeList.PhotoData",
+                  "usr": "s:10RecipeList9PhotoDataV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList7RowViewV5photoAA9PhotoDataVvg",
+              "mangledName": "$s10RecipeList7RowViewV5photoAA9PhotoDataVvg",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "PhotoData",
+                  "printedName": "RecipeList.PhotoData",
+                  "usr": "s:10RecipeList9PhotoDataV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList7RowViewV5photoAA9PhotoDataVvs",
+              "mangledName": "$s10RecipeList7RowViewV5photoAA9PhotoDataVvs",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList7RowViewV5photoAA9PhotoDataVvM",
+              "mangledName": "$s10RecipeList7RowViewV5photoAA9PhotoDataVvM",
+              "moduleName": "RecipeList",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList7RowViewV4bodyQrvp",
+          "mangledName": "$s10RecipeList7RowViewV4bodyQrvp",
+          "moduleName": "RecipeList",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList7RowViewV4bodyQrvg",
+              "mangledName": "$s10RecipeList7RowViewV4bodyQrvg",
+              "moduleName": "RecipeList",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(photo:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RowView",
+              "printedName": "RecipeList.RowView",
+              "usr": "s:10RecipeList7RowViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "PhotoData",
+              "printedName": "RecipeList.PhotoData",
+              "usr": "s:10RecipeList9PhotoDataV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList7RowViewV5photoAcA9PhotoDataV_tcfc",
+          "mangledName": "$s10RecipeList7RowViewV5photoAcA9PhotoDataV_tcfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList7RowViewV",
+      "mangledName": "$s10RecipeList7RowViewV",
+      "moduleName": "RecipeList",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RowView_Previews",
+      "printedName": "RowView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RecipeList16RowView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s10RecipeList16RowView_PreviewsV8previewsQrvpZ",
+          "moduleName": "RecipeList",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RecipeList16RowView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s10RecipeList16RowView_PreviewsV8previewsQrvgZ",
+              "moduleName": "RecipeList",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RowView_Previews",
+              "printedName": "RecipeList.RowView_Previews",
+              "usr": "s:10RecipeList16RowView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RecipeList16RowView_PreviewsVACycfc",
+          "mangledName": "$s10RecipeList16RowView_PreviewsVACycfc",
+          "moduleName": "RecipeList",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RecipeList16RowView_PreviewsV",
+      "mangledName": "$s10RecipeList16RowView_PreviewsV",
+      "moduleName": "RecipeList",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
